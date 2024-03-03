@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+		<meta charset = "UTF-8">
+		<meta http-equiv="X-UA-Compatible" content ="IE=edge">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<title> Yolanda's Portfolio Draft!!</title>
+		<link rel = "stylesheet" href = "Style.css">
+		<script src="https://kit.fontawesome.com/8e40cedd1e.js" crossorigin="anonymous"></script>
+</head>
+	
+<body>
+	<div id = "header">
+		<div class = "container">
+			<nav>
+				<img src ="Pictures/Logo.png" class="Logo">
+				<ul id="sidemenu">
+					<li><a href ="#header"> Home </a></li>
+					<li><a href ="#about"> About </a></li>
+					<li><a href ="#services"> Services </a></li>
+					<li><a href ="#Portfolio"> Portfolio </a></li>
+					<li><a href ="#contact"> Contact </a></li>
+					<i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			
+			<div class= "header-text">
+				<p>UI/UX Designer</p>
+				<h1>Hey, I'm <span>Yolanda </span><br>Mbande from South Africa.</h1>
+			</div>
+		</div>
+	</div>
+<!----------------about me --------->
+	<div id= "about">
+		<div class = "container">
+			<div class ="row">
+				<div class = "about-col-1">
+				<img src = "Pictures/aboutme.jpg">
+				</div>
+				
+				<div class = "about-col-2">
+					<h1 class="sub-title" >About Me</h1>
+					<p>Hey, I'm Yolanda, a passionate 4th-year Computer Science student specializing in application development. 
+					While I'm currently in the academic phase of my journey, my sights are set on delving into the professional realm of 
+					creating innovative apps, websites, and proficient database management. I am particularly excited about 
+					the prospect of engaging in database management to ensure seamless data organization and accessibility. Although 
+					I haven't formally entered the workforce yet, I am eagerly anticipating the opportunity to apply my theoretical 
+					knowledge in real-world scenarios. My goal is to not only meet industry standards but to exceed them by creating 
+					solutions that are aesthetically pleasing.</p>
+					
+					<div class="tab-titles">
+						<p class ="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+						<p class ="tab-links" onclick="opentab('experience')"> Experience</p>
+						<p class ="tab-links" onclick="opentab('education')"> Education</p>
+					</div>
+					<div class = "tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>UI/UX</span><br> Designing Web/App Interfaces</li>
+							<li><span>Web Development</span><br> Web Application Development</li>
+							<li><span>App Development</span><br> Building Android/iOS Applications</li>
+						</ul>
+					</div>
+					<div class = "tab-contents" id="experience">
+						<ul>
+							<li><span>Coursera</span><br> Website building</li>
+							<li><span>SheCodes</span><br> App Building</li>
+						</ul>
+					</div>
+					<div class = "tab-contents" id="education">
+						<ul>
+							<li><span>2021 - Current Year</span><br> Dip Computer Science</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!------------------------- Services ----------------------------------------->
+<div id ="services">
+	<div class = "container">
+		<h1 class="sub-title"> My Services</h1>
+		<div class="services-list">
+			<div>
+			<i class="fa-solid fa-code-compare"></i>
+			<h2>Web Design</h2>
+			<p>I'm a dynamic web designer with a passion for creating visually engaging and user-centric websites. 
+			</p>
+			<a href="#"> Learn more </a>
+			</div>
+			
+			<div>
+			<i class="fa-solid fa-crop"></i>
+			<h2>UI/UX Design</h2>
+			<p>As a UI/UX designer, I specialize in creating visually appealing interfaces while prioritizing user needs 
+			and behaviors.</p>
+			<a href="#"> Learn more </a>
+			</div>
+			
+			<div>
+			<i class="fa-brands fa-app-store"></i>
+			<h2>Application Design</h2>
+			<p>Application design is my expertise, where I focus on creating intuitive and visually compelling interfaces 
+			for software applications.</p>
+			<a href="#"> Learn more </a>
+			</div>
+			
+			<div>
+			<i class="fa-solid fa-database"></i>
+			<h2>Database Management</h2>
+			<p>My expertise extends to designing robust database structures and ensuring data integrity for seamless application functionality.</p>
+			<a href="#"> Learn more </a>
+			</div>
+		</div>
+	</div> 
+</div>
+
+<!--------------------Portfolio ---------------->
+
+<div id="Portfolio">
+	<div class="container">
+		<h1 class="sub-title"> My Work</h1>
+		<div class = "work-list">
+			<div class= "work">
+				<img src =  "Pictures/gameapp.jpg">
+				<div class ="layer">
+				<h3>Gaming App</h3>
+				<p>This app allows to play multiple games all available on the app.
+				Download this from PlayStore.</p>
+				<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Here</a>
+				</div>
+			</div>
+			<div class= "work">
+				<img src =  "Pictures/socialmedia.png">
+				<div class ="layer">
+				<h3>Social Media App</h3>
+				<p>This app allows to play multiple games all available on the app.
+				Download this from PlayStore.</p>
+				<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Here</a>
+				</div>
+			</div>
+			<div class= "work">
+				<img src =  "Pictures/i.jpg">
+				<div class ="layer">
+				<h3>Website </h3>
+				<p>This app allows to play multiple games all available on the app.
+				Download this from PlayStore.</p>
+				<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Here</a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See More<a/>
+	</div>
+</div>
+
+<!-------- contact ----------->
+
+<div id ="contact">
+	<div class="container">
+		<div class= "row">
+			<div class= "contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><a href="mailto:yolandambande60@gmail.com"><i class="fa-solid fa-envelope"></i></a>Yolandambande60@gmail.com</p>
+				<div class = "social-icons"> 
+					<a href= "https://web.facebook.com/mslandie.mbande.9"><i class="fa-brands fa-facebook"></i></a>
+					<a href= "https://www.linkedin.com/in/yolanda-mbande-11170624a/"><i class="fa-brands fa-linkedin"></i></a>
+					<a href= "https://www.instagram.com/mbande_yolanda/"><i class="fa-brands fa-instagram"></i></a>
+					<a href= "https://github.com/YolandaMbande"><i class="fa-brands fa-github"></i></a>
+				</div>	
+				<a href= "MyCV.docx" download class="btn btn2">Download CV</a>
+			</div>
+			
+			<div class= "contact-right">
+				<form name= "submit-to-google-sheet" action ="AKfycbzdU2Y156xOXKt1sFf31eMF0bl3zf3CBfHRIg_4onWvO2vIgG7TgCLHW1GwIH2-tCUsgg">
+					<input type = "text" name ="Name" placeholder="Your Name" required>
+					<input type = "email" name="email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+			</div>
+			
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyright @ Yolanda. Made by Yours Truly<i class="fa-regular fa-face-smile-wink"></i></p>
+	</div>
+</div>
+<!--You have to redesign the whole portfolio and change the color that are used as theme and use NetBeans. Update the CV attached to the portfolio. 
+Use the color pink.
+Ensure to add Kotlin to the languages, Nestashoots to the business(s) you've worked with. Create a app with android studio. Create a social media app game 
+and a game app so that you can attach to the portfolio furthermore, use the system designed in SWP to add to the projects you've done before.------>
+
+
+<script> 
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+	
+	function opentab(tabname)
+	{
+		for(tablink of tablinks)
+		{
+			tablink.classList.remove("active-link")
+		}
+		for(tabcontent of tabcontents)
+		{
+			tabcontent.classList.remove("active-tab")
+		}
+		
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+</script>
+
+<script>
+	var sidemen =document.getElementById("sidemenu");
+	function openmenu()
+	{
+		sidemen.style.right = "0";
+	}
+	function closemenu()
+	{
+		sidemen.style.right = "-200px";
+	}
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzdU2Y156xOXKt1sFf31eMF0bl3zf3CBfHRIg_4onWvO2vIgG7TgCLHW1GwIH2-tCUsgg/exec'; // Assuming deployed as a web app
+
+const form = document.forms['submit-to-google-sheet'];
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+
+  fetch(scriptURL, {
+    method: 'POST',
+    body: new FormData(form)
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.text();
+  })
+  .then(data => {
+    console.log('Success!', data); // Handle successful response (e.g., display success message)
+  })
+  .catch(error => {
+    console.error('Error!', error.message);
+    alert('An error occurred while submitting the form. Please try again later.'); // Informative user message
+  });
+});
+
+</script>
+
+</body>
+</html>
